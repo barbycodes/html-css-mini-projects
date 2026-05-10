@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <main class="container">
+    <h1>Registration Form</h1>
+    <p>Create your account by filling out the form below.</p>
+
+    <form>
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <label for="first-name">First Name</label>
+        <input id="first-name" name="first-name" type="text" required />
+
+        <label for="last-name">Last Name</label>
+        <input id="last-name" name="last-name" type="text" required />
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required />
+
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" required />
+      </fieldset>
+
+      <fieldset>
+        <legend>Account Type</legend>
+
+        <label>
+          <input type="radio" name="account-type" value="personal" checked />
+          Personal
+        </label>
+
+        <label>
+          <input type="radio" name="account-type" value="business" />
+          Business
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Additional Information</legend>
+
+        <label for="age">Age</label>
+        <input id="age" name="age" type="number" min="13" max="120" />
+
+        <label for="bio">Short Bio</label>
+        <textarea id="bio" name="bio" rows="3"></textarea>
+      </fieldset>
+
+      <label class="terms">
+        <input type="checkbox" required />
+        I accept the terms and conditions
+      </label>
+
+      <button type="submit">Create Account</button>
+    </form>
+  </main>
+</body>
+</html>
