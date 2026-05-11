@@ -54,3 +54,14 @@ A responsive pricing layout using Flexbox with modern SaaS-style design.
 - Three pricing cards (Basic, Pro, Premium)
 - Hover effects with scale and shadow
 - Modern gradient background and UI styling
+
+---
+
+## 🃏 Playing Cards Layout
+A simple and responsive playing cards layout built with Flexbox and modern CSS styling.
+
+### Features
+- Responsive card layout using Flexbox
+- Styled playing cards with suit symbols
+- Hover animation and shadow effects
+- Color-coded red and black cards
